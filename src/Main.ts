@@ -197,7 +197,7 @@ class Main extends eui.UILayer {
         RES.getResAsync("description_json", this.startAnimation, this);
 
         let button = new eui.Button();
-        button.label = "Click!";
+        button.label = "Click me!";
         button.horizontalCenter = 0;
         button.verticalCenter = 0;
         this.addChild(button);
