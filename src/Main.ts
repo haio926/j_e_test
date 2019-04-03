@@ -35,7 +35,7 @@ class Main extends eui.UILayer {
     private loadingView: LoadingUI;
     protected createChildren(): void {
         super.createChildren();
-        console.log("a0");
+        console.log("a1");
         egret.lifecycle.addLifecycleListener((context) => {
             // custom lifecycle plugin
         })
