@@ -32,7 +32,7 @@ class Main extends eui.UILayer {
      * 加载进度界面
      * loading process interface
      */
-    private loadingView: LoadingUI;//
+    private loadingView: LoadingUI;////
     protected createChildren(): void {
         super.createChildren();
         console.log("c3");
